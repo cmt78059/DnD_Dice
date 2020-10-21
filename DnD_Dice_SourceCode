@@ -1,0 +1,13 @@
+import random
+
+print("Welcome to Dungeons and Dragons dice roller!")
+print("Press R to roll the dice.")
+print("Press E to exit the dice roller.")
+choice= input()
+while (choice=="R" or choice =="r"):
+	dice= int(random.randint(1,20))
+	print("Dice: % d" % (dice))
+	choice= input("Roll or Exit?")
+  
+
+print("Thank you for using the dice!")
