@@ -1,3 +1,7 @@
+#Language:Python
+#Level: Easy
+#Purpose: Simple D20 dice roller
+
 import random
 
 print("Welcome to Dungeons and Dragons dice roller!")
